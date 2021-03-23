@@ -12,7 +12,21 @@
   list-style-type: none;
 }
 
-#main-navbar ul li a: {
+#main-navbar li {
+	float: left;
+	right: 50%;
+	display: block;
+	position: relative;
+}
+
+#main-navbar ul li {
+  display: block;
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+#main-navbar ul li a {
   display: block;
   padding: 10px 20px;
   text-decoration: none;
@@ -29,6 +43,9 @@
   width: 100%;
 }
 
+#onpage {
+  text-decoration: underline overline;
+}
 
 #sidebar-container {
   background-color: red;
